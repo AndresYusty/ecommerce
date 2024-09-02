@@ -13,7 +13,7 @@ steps:
 
 - script: |
     docker-compose build
-    docker-compose up -d ecommerce-back
+    docker-compose up -d --no-recreate
   displayName: 'Build and Run Docker Compose'
 
 - script: |
