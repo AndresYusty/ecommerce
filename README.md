@@ -1,7 +1,5 @@
 Desarrollo Ecommerce 
 
-Pasos para ejecutar el proyecto con Docker:
-
 Requisitos: 
 - Docker
 - Clonar repositorio Github localmente
