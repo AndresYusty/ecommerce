@@ -15,3 +15,7 @@ steps:
     docker-compose build
     docker-compose up -d
   displayName: 'Build and Run Docker Compose'
+
+- script: |
+    curl http://localhost:8080/api/products
+  displayName: 'Check Products API'
